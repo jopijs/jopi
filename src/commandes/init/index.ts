@@ -135,8 +135,8 @@ async function installProjectSources(projectTemplate: string, installDir: string
     // This allows an easy update of the core files witout patching
     // the demo-project each time.
     //
-    if (projectTemplate !== "minimal") {
+    if (projectTemplate !== "core") {
         console.log("Overriding core config files...")
-        await downloadProject("minimal/project.zip", installDir);
+        await downloadProject("core/project.zip", installDir);
     }
 }

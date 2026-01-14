@@ -39,7 +39,6 @@
     "dev:tsc-watch": "tsc --watch",
     "dev:tsc-check": "tsc --noEmit",
     "jopiLink": "npx jopi-mono link-add",
-    "bunLink": "bun link",
     "test:init:tutorial": "npx jopi init --template demo-flore-store --dir ../../temp",
     "test:init:list-choices": "npx jopi init --dir ../../temp",
     "test:shadcn-add:test1": "npx jopi shadcn-add table chart --mod testShadInstaller --dir ../../__packages/_jopi-tests --yes",

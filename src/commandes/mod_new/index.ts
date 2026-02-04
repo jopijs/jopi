@@ -46,7 +46,7 @@ export async function commandModNew(args: CommandOptions_ModNew) {
 export default function(uiApp: JopiUiApplication) {
 }`);
 
-    await tryAddFile(jk_fs.join(modDir, "serverInit.ts"), `import {JopiWebSiteBuilder} from "jopijs";
+    await tryAddFile(jk_fs.join(modDir, "serverInit.ts"), `import {JopiWebSiteBuilder} from "jopijs/core";
 
 export default async function(webSite: JopiWebSiteBuilder) {
 }`);
